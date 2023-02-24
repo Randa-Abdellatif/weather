@@ -1,0 +1,152 @@
+body
+{
+    background-color: #1E202B;
+}
+
+nav ul li a{
+    margin-left: 10px;
+    margin-right: 10px;
+    /* color: white !important; */
+}
+.navbar-nav .nav-link
+{
+    color: white;
+    border-radius: 100px;
+    transition: 1s ease-in;
+    -webkit-transition: 1s ease-in;
+    -moz-transition: 1s ease-in;
+    -ms-transition: 1s ease-in;
+    -o-transition: 1s ease-in;
+}
+.navbar-nav .nav-link:hover{
+    color: aqua;
+    border: aqua 1px solid;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+.navbar-nav .nav-link.active
+{
+    color: aqua;
+    border: aqua 1px solid;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+header
+{
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+
+    /* background-position: center center; */
+    /* background-size: cover; */
+    padding: 70px 0;
+    min-height: 350px;
+    margin: 0;
+}
+
+.form-control
+{
+    background: #1e202b;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.form-control:focus
+{
+    border: none;
+    box-shadow: none;
+}
+
+.form-control input
+{
+    border: none;
+    width: 100%;
+    padding: 10px 30px;
+    background: #1e202b;
+    color: white;
+}
+
+/* input.form-control
+{
+    height: 44px;
+} */
+
+.card-group
+{
+    width: 90%;
+    margin: auto;
+}
+
+.card{
+    --bs-card-border-color: none;
+}
+.card .card-header
+{
+    background-color:#2D303D ;
+    color: #bfc1c8;
+    justify-content: center;
+}
+
+.card .card-body
+{
+    background-color: #323544;
+    color: white;
+}
+
+.card .card-body .card-text small
+{
+    color: #bfc1c8;
+}
+
+.cardTwo .card-header
+{
+    background-color:#222530;
+}
+
+.cardTwo .card-body
+{
+    background-color: #262936;
+}
+
+footer
+{
+    background-color: #262936;
+}
+
+footer span
+{
+    margin-left: 5px;
+    color: aqua;
+    font-size: 1.2rem;
+    background-color: #1E202B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+footer span:hover
+{
+    color: white;
+    background-color: aqua;
+}
